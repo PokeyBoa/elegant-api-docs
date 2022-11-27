@@ -540,24 +540,24 @@
     </td>
   </tr>
   <tr>
-    <td style="padding-left: 2em">∟dnss</td>
+    <td style="padding-left: 2em">∟dns</td>
     <td>object[]</td>
     <td>Yes</td>
     <td>
       <span style="color: DimGray;">
-      Device role Object (dnss)<br/>
+      Device role Object (dns)<br/>
       For the definitions of types, refer to Member object description.
       </span><br/>
       <b>Default value: </b>[]
     </td>
   </tr>
   <tr>
-    <td style="padding-left: 2em">∟nss</td>
+    <td style="padding-left: 2em">∟wgs</td>
     <td>object[]</td>
     <td>Yes</td>
     <td>
       <span style="color: DimGray;">
-      Device role Object (nss)<br/>
+      Device role Object (wgs)<br/>
       For the definitions of types, refer to Member object description.
       </span><br/>
       <b>Default value: </b>[]
@@ -579,7 +579,7 @@
 </thead>
 <tbody>
   <tr>
-    <td>gateway | dnss | nss</td>
+    <td>gateway | dns | wgs</td>
     <td>object[]</td>
     <td>Yes</td>
     <td>
@@ -588,8 +588,8 @@
       </span><br/>
       <b>Enum keys are: </b><br/>
       &ensp;• <code>gateway</code><br/>
-      &ensp;• <code>dnss</code><br/>
-      &ensp;• <code>nss</code><br/>
+      &ensp;• <code>dns</code><br/>
+      &ensp;• <code>wgs</code><br/>
       <span style="color: DimGray;">
       Empty arrays are allowed, but the k-v must exist!
       </span><br/>
@@ -991,8 +991,8 @@
         }
       }
     ],
-    "dnss": [],
-    "nss": [
+    "dns": [],
+    "wgs": [
       {
         "hardware": {
           "vender": "DELL",
