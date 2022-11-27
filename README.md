@@ -3,6 +3,10 @@ An elegant and simple OpenAPI Documentation project based on `VuePress` + `MarkD
 
 ## Hint
 
+> Through the capabilities provided by `vuepress`,
+> This is an online web document that can be quickly built by focusing on writing markdown documents. 
+> We use it to build project manuals and OpenAPI documents.
+
 - Imitation of the API interface document layout of the Feishu open platform
 - Since it is written in standard `MarkDown` (HTML), it is easy to integrate your own projects
 
