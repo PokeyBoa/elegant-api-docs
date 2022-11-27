@@ -3,7 +3,8 @@ An elegant and simple OpenAPI Documentation project based on `VuePress` + `MarkD
 
 ## Hint
 
-Since it is written in standard `MarkDown` (HTML), it is easy to integrate your own projects
+- Imitation of the API interface document layout of the Feishu open platform
+- Since it is written in standard `MarkDown` (HTML), it is easy to integrate your own projects
 
 ## Directory tree
 
